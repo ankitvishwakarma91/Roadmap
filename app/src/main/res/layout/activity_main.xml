@@ -51,7 +51,11 @@
         app:layout_constraintGuide_begin="20dp" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/Login"
+=======
+        android:id="@+id/btnLogin"
+>>>>>>> abef9d0 (Initial commit)
         android:layout_width="206dp"
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
@@ -60,12 +64,20 @@
         android:textColor="@color/white"
         android:gravity="center"
         android:text="Login"
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/button2"
+=======
+        app:layout_constraintBottom_toTopOf="@+id/btnsignup"
+>>>>>>> abef9d0 (Initial commit)
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/button2"
+=======
+        android:id="@+id/btnsignup"
+>>>>>>> abef9d0 (Initial commit)
         android:layout_width="204dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
