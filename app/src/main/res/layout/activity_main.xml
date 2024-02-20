@@ -20,7 +20,8 @@
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         app:layout_constraintVertical_bias="0.219"
-        app:srcCompat="@drawable/logo_ankit" />
+        app:srcCompat="@drawable/logo_ankit"
+        tools:ignore="NotSibling" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -51,41 +52,32 @@
         app:layout_constraintGuide_begin="20dp" />
 
     <Button
-<<<<<<< HEAD
-        android:id="@+id/Login"
-=======
+
         android:id="@+id/btnLogin"
->>>>>>> abef9d0 (Initial commit)
         android:layout_width="206dp"
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:textColor="@color/white"
         android:gravity="center"
         android:text="Login"
-<<<<<<< HEAD
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-=======
+        android:textColor="@color/white"
+
         app:layout_constraintBottom_toTopOf="@+id/btnsignup"
->>>>>>> abef9d0 (Initial commit)
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintStart_toStartOf="@+id/guideline" />
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        tools:ignore="NotSibling" />
 
     <Button
-<<<<<<< HEAD
-        android:id="@+id/button2"
-=======
         android:id="@+id/btnsignup"
->>>>>>> abef9d0 (Initial commit)
         android:layout_width="204dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:textColor="@color/black"
         android:background="#FFFDFD"
         android:text="Sign Up"
+        android:textColor="@color/black"
         app:iconSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
